@@ -19,7 +19,11 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     background: var(--bg-dark);
     color: var(--text-primary);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
+  }
+
+  body.no-scroll {
+    overflow: hidden;
   }
 
   a {
